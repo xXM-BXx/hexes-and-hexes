@@ -1,7 +1,3 @@
-//
-// Created by mburc on 16.07.2025.
-//
-
 #pragma once
 #include "engine/rendering/Sprite.h"
 #include "engine/ui/UIObject.h"

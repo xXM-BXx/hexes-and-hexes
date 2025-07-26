@@ -1,7 +1,3 @@
-//
-// Created by mburc on 23.06.2025.
-//
-
 #pragma once
 #include <memory>
 

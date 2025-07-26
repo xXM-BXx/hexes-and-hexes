@@ -1,7 +1,3 @@
-//
-// Created by mburc on 13.07.2025.
-//
-
 #pragma once
 #include "../../expanded-hex-grid/characters/actions/Action.h"
 #include "engine/ui/UIButton.h"

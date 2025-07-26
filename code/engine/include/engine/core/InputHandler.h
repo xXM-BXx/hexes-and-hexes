@@ -1,7 +1,3 @@
-//
-// Created by s453388 on 17.06.2025.
-//
-
 #pragma once
 #include <memory>
 #include <engine/core/Events.h>

@@ -1,7 +1,3 @@
-//
-// Created by mburc on 11.07.2025.
-//
-
 #include "Obstacle.h"
 #include "../../Game.h"
 #include "engine/Assets.h"

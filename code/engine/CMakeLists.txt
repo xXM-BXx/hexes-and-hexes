@@ -15,6 +15,8 @@ add_subdirectory(extern/soloud)
 add_subdirectory(extern/stb_image)
 
 add_library(${ENGINE_NAME} ${HEADER_LIST} ${PRIVATE_HEADER_LIST} ${SOURCE_LIST}
+        extern/miniaudio/include/miniaudio/miniaudio.h
+        extern/miniaudio/src/miniaudio.cpp
 )
 
 target_compile_features(${ENGINE_NAME} PRIVATE cxx_std_20)

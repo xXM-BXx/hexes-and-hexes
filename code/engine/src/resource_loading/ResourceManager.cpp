@@ -1,8 +1,3 @@
-//
-// Created by mburc on 19.11.2024.
-//
-
-
 #pragma once
 #include <engine/resource_loading/ResourceManager.h>
 #include <fstream>

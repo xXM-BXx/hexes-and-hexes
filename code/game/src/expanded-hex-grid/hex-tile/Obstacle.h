@@ -1,7 +1,3 @@
-//
-// Created by mburc on 11.07.2025.
-//
-
 #pragma once
 #include <soloud_wav.h>
 #include <engine/rendering/GameObject.h>

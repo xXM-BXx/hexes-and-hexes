@@ -1,7 +1,3 @@
-//
-// Created by mburc on 18.06.2025.
-//
-
 #include <engine/ui/UIBox.h>
 
 #include <utility>

@@ -1,7 +1,3 @@
-//
-// Created by mburc on 09.07.2025.
-//
-
 #pragma once
 #include "LineAttack.h"
 #include "../../../Game.h"

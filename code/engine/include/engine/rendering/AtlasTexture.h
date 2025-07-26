@@ -1,7 +1,3 @@
-//
-// Created by mburc on 22.11.2024.
-//
-
 #pragma once
 #include <filesystem>
 #include <map>

@@ -1,8 +1,3 @@
-//
-// Created by mburc on 22.11.2024.
-//
-
-
 #include <engine/rendering/AtlasTexture.h>
 #include <engine/resource_loading/ResourceManager.h>
 #include <nlohmann/json.hpp>

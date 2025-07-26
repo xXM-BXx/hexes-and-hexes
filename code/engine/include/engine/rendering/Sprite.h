@@ -1,7 +1,3 @@
-//
-// Created by mburc on 18.11.2024.
-//
-
 #pragma once
 #include <vector>
 #include "glm/fwd.hpp"

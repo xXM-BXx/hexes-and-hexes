@@ -1,7 +1,3 @@
-//
-// Created by mburc on 23.06.2025.
-//
-
 #include <engine/ui/UIObject.h>
 
 #include "engine/core/Engine.h"

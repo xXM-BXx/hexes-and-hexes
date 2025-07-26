@@ -1,7 +1,3 @@
-//
-// Created by mburc on 18.06.2025.
-//
-
 #include <engine/ui/UITexture.h>
 
 #include <engine/resource_loading/ResourceManager.h>

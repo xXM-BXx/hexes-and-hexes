@@ -1,7 +1,3 @@
-//
-// Created by mburc on 06.07.2025.
-//
-
 #pragma once
 #include <engine/rendering/AnimatedSprite.h>
 

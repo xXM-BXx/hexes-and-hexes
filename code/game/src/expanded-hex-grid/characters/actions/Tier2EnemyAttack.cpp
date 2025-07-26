@@ -1,7 +1,3 @@
-//
-// Created by mburc on 18.07.2025.
-//
-
 #include "Tier2EnemyAttack.h"
 
 #include "../../../Game.h"

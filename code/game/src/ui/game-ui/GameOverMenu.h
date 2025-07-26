@@ -1,7 +1,3 @@
-//
-// Created by mburc on 17.07.2025.
-//
-
 #pragma once
 #include <engine/ui/UIObject.h>
 

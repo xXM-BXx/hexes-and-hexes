@@ -1,7 +1,3 @@
-//
-// Created by mburc on 07.07.2025.
-//
-
 #pragma once
 #include "PlayerCharacter.h"
 #include "Character.h"

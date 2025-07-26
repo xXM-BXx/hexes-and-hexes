@@ -1,7 +1,3 @@
-//
-// Created by mburc on 18.06.2025.
-//
-
 #pragma once
 #include <engine/rendering/Texture.h>
 #include <glm/vec4.hpp>

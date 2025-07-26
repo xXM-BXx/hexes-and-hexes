@@ -1,7 +1,3 @@
-//
-// Created by s453388 on 27.05.2025.
-//
-
 #pragma once
 #include <memory>
 #include <vector>

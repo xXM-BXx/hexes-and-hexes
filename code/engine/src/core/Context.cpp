@@ -1,6 +1,3 @@
-//
-// Created by s453388 on 27.05.2025.
-//
 #include <stdexcept>
 #include <engine/core/Context.h>
 #include <engine/core/Engine.h>

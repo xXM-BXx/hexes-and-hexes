@@ -1,7 +1,3 @@
-//
-// Created by mburc on 23.06.2025.
-//
-
 #pragma once
 #include <soloud_wav.h>
 #include <engine/ui/UIBox.h>

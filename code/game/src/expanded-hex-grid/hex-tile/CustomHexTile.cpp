@@ -1,7 +1,3 @@
-//
-// Created by mburc on 24.06.2025.
-//
-
 #include "CustomHexTile.h"
 
 #include <engine/core/Engine.h>

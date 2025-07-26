@@ -1,7 +1,3 @@
-//
-// Created by mburc on 18.07.2025.
-//
-
 #pragma once
 #include "Tier3EnemySingle.h"
 

@@ -1,7 +1,3 @@
-//
-// Created by mburc on 15.07.2025.
-//
-
 #include "MainMenu.h"
 
 #include <engine/core/Engine.h>

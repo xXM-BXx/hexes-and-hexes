@@ -1,7 +1,3 @@
-//
-// Created by mburc on 19.11.2024.
-//
-
 #pragma once
 #include <engine/rendering/Texture.h>
 #include <engine/core/Context.h>

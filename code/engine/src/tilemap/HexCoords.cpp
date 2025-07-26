@@ -1,7 +1,3 @@
-//
-// Created by mburc on 03.12.2024.
-//
-
 #include <numbers>
 #include <valarray>
 #include <engine/tilemap/HexCoords.h>

@@ -1,7 +1,3 @@
-//
-// Created by mburc on 24.06.2025.
-//
-
 #pragma once
 #include <engine/tilemap/HexTile.h>
 

@@ -1,7 +1,3 @@
-//
-// Created by s453388 on 17.06.2025.
-//
-
 #include "../../include/engine/core/InputHandler.h"
 
 #include <nlohmann/detail/input/parser.hpp>

@@ -1,7 +1,3 @@
-//
-// Created by mburc on 07.07.2025.
-//
-
 #pragma once
 #include "Action.h"
 #include "../Character.h"

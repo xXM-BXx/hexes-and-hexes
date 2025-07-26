@@ -1,7 +1,3 @@
-//
-// Created by mburc on 18.11.2024.
-//
-
 #include <engine/rendering/Shader.h>
 #include <fstream>
 #include <sstream>

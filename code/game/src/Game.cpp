@@ -1,6 +1,3 @@
-//
-// Created by mburc on 17.11.2024.
-//
 #pragma once
 #include "Game.h"
 

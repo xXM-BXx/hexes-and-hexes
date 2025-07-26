@@ -1,7 +1,3 @@
-//
-// Created by mburc on 13.07.2025.
-//
-
 #pragma once
 #include "ActionList.h"
 #include "../../Game.h"
