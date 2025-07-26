@@ -73,29 +73,29 @@ namespace hnh {
     }
 
     void Game::playCrystalBreakSound() {
-        engine::Engine::get().audioManager.play("crystalBreakSound");
+        engine::Engine::get().audioManager.playDirect("audio/CrystalBreak.wav");
     }
 
     void Game::playCrystalGrowSound() {
-        engine::Engine::get().audioManager.play("crystalGrowSound");
+        engine::Engine::get().audioManager.playDirect("audio/CrystalGrow.wav");
     }
     void Game::playHurtSound() {
-        engine::Engine::get().audioManager.play("hurtSound");
+        engine::Engine::get().audioManager.playDirect("audio/Hurt.wav");
     }
     void Game::playCastSound(){
-        engine::Engine::get().audioManager.play("castSound");
+        engine::Engine::get().audioManager.playDirect("audio/Cast.wav");
     }
     void Game::playStepSound() {
-        engine::Engine::get().audioManager.play("stepSound");
+        engine::Engine::get().audioManager.playDirect("audio/Step.wav");
     }
     void Game::playExplosionSound() {
-        engine::Engine::get().audioManager.play("explosionSound");
+        engine::Engine::get().audioManager.playDirect("audio/Explosion.wav");
     }
     void Game::playLifeStealSound() {
-        engine::Engine::get().audioManager.play("lifestealSound");
+        engine::Engine::get().audioManager.playDirect("audio/Lifesteal.wav");
     }
     void Game::playHealSound() {
-        engine::Engine::get().audioManager.play("healSound");
+        engine::Engine::get().audioManager.playDirect("audio/Heal.wav");
     }
 
     void Game::onStart() {
@@ -106,25 +106,9 @@ namespace hnh {
         uiButtonHoveredTexture = engine->getResourceManager()->loadResource<engine::ui::UITexture>(
             "sprites/UIButtonHover.png");
 
-        engine::Engine::get().audioManager.loadSound("crystalBreakSound", resolveAssetPath("audio/CrystalBreak.wav"));
-
-        engine::Engine::get().audioManager.loadSound("crystalGrowSound", resolveAssetPath("audio/CrystalGrow.wav"));
-
-        engine::Engine::get().audioManager.loadSound("hurtSound", resolveAssetPath("audio/Hurt.wav"));
-
-        engine::Engine::get().audioManager.loadSound("castSound", resolveAssetPath("audio/Cast.wav"));
-
-        engine::Engine::get().audioManager.loadSound("stepSound", resolveAssetPath("audio/Step.wav"));
-
-        engine::Engine::get().audioManager.loadSound("explosionSound", resolveAssetPath("audio/Explosion.wav"));
-
-        engine::Engine::get().audioManager.loadSound("lifestealSound", resolveAssetPath("audio/Lifesteal.wav"));
-
-        engine::Engine::get().audioManager.loadSound("healSound", resolveAssetPath("audio/Heal.wav"));
-
         //engine::Engine::get().audioManager.loadSound("backgroundMusic", resolveAssetPath("audio/Fantasy Choir 1.wav").string(), true);
+        engine::Engine::get().setVolume(1.0f);
 
-        //engine::Engine::get().setVolume(1.0f);
         instance = this;
 
         engine::Engine::get().backgroundColor = glm::vec4(0.11f, 0.039f, 0.008f, 1.0f);

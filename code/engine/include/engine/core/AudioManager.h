@@ -2,7 +2,6 @@
 #include <filesystem>
 #include <string>
 #include <unordered_map>
-#define MINIAUDIO_IMPLEMENTATION
 #include <miniaudio/miniaudio.h>
 
 namespace hnh::engine::audio {
