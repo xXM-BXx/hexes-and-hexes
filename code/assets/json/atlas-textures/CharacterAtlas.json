@@ -1,0 +1,193 @@
+{
+  "defaultOffset": [0, 0],
+  "defaultSize": [1, 1],
+  "atlasItems": [
+    {
+      "atlasCoordinates":[0, 0],
+      "size": [3, 3],
+      "offset": [24, 28]
+    },
+    {
+      "atlasCoordinates":[3, 0],
+      "size": [3, 3],
+      "offset": [24, 28]
+    },
+    {
+      "atlasCoordinates":[6, 0],
+      "size": [3, 3],
+      "offset": [24, 28]
+    },
+    {
+      "atlasCoordinates":[9, 0],
+      "size": [3, 3],
+      "offset": [24, 28]
+    },
+
+    {
+      "atlasCoordinates":[0, 3],
+      "size": [3, 4],
+      "offset": [24, 44]
+    },
+    {
+      "atlasCoordinates":[3, 3],
+      "size": [3, 4],
+      "offset": [24, 44]
+    },
+    {
+      "atlasCoordinates":[6, 3],
+      "size": [3, 4],
+      "offset": [24, 44]
+    },
+    {
+      "atlasCoordinates":[9, 3],
+      "size": [3, 4],
+      "offset": [24, 44]
+    },
+
+    {
+      "atlasCoordinates":[12, 3],
+      "size": [3, 4],
+      "offset": [24, 28]
+    },
+    {
+      "atlasCoordinates":[15, 3],
+      "size": [3, 4],
+      "offset": [24, 28]
+    },
+    {
+      "atlasCoordinates":[18, 3],
+      "size": [3, 4],
+      "offset": [24, 28]
+    },
+    {
+      "atlasCoordinates":[21, 3],
+      "size": [3, 4],
+      "offset": [24, 28]
+    },
+
+    {
+      "atlasCoordinates":[0, 7],
+      "size": [5, 4],
+      "offset": [24, 44]
+    },
+    {
+      "atlasCoordinates":[5, 7],
+      "size": [5, 4],
+      "offset": [24, 44]
+    },
+    {
+      "atlasCoordinates":[10, 7],
+      "size": [5, 4],
+      "offset": [24, 44]
+    },
+    {
+      "atlasCoordinates":[15, 7],
+      "size": [5, 4],
+      "offset": [24, 44]
+    },
+
+    {
+      "atlasCoordinates":[0, 11],
+      "size": [5, 4],
+      "offset": [24, 28]
+    },
+    {
+      "atlasCoordinates":[5, 11],
+      "size": [5, 4],
+      "offset": [24, 28]
+    },
+    {
+      "atlasCoordinates":[10, 11],
+      "size": [5, 4],
+      "offset": [24, 28]
+    },
+    {
+      "atlasCoordinates":[15, 11],
+      "size": [5, 4],
+      "offset": [24, 28]
+    },
+
+    {
+      "atlasCoordinates":[0, 15],
+      "size": [5, 4],
+      "offset": [56, 28]
+    },
+    {
+      "atlasCoordinates":[5, 15],
+      "size": [5, 4],
+      "offset": [56, 28]
+    },
+    {
+      "atlasCoordinates":[10, 15],
+      "size": [5, 4],
+      "offset": [56, 28]
+    },
+    {
+      "atlasCoordinates":[15, 15],
+      "size": [5, 4],
+      "offset": [56, 28]
+    },
+
+    {
+      "atlasCoordinates":[0, 19],
+      "size": [5, 4],
+      "offset": [56, 44]
+    },
+    {
+      "atlasCoordinates":[5, 19],
+      "size": [5, 4],
+      "offset": [56, 44]
+    },
+    {
+      "atlasCoordinates":[10, 19],
+      "size": [5, 4],
+      "offset": [56, 44]
+    },
+    {
+      "atlasCoordinates":[15, 19],
+      "size": [5, 4],
+      "offset": [56, 44]
+    },
+
+    {
+      "atlasCoordinates":[0, 23],
+      "size": [3, 3],
+      "offset": [24,28]
+    },
+    {
+      "atlasCoordinates":[3, 23],
+      "size": [3, 3],
+      "offset": [24,28]
+    },
+    {
+      "atlasCoordinates":[6, 23],
+      "size": [3, 3],
+      "offset": [24,28]
+    },
+    {
+      "atlasCoordinates":[9, 23],
+      "size": [3, 3],
+      "offset": [24,28]
+    },
+    {
+      "atlasCoordinates":[12, 23],
+      "size": [3, 3],
+      "offset": [24,28]
+    },
+    {
+      "atlasCoordinates":[15, 23],
+      "size": [3, 3],
+      "offset": [24,28]
+    },
+    {
+      "atlasCoordinates":[18, 23],
+      "size": [3, 3],
+      "offset": [24,28]
+    },
+    {
+      "atlasCoordinates":[21, 23],
+      "size": [3, 3],
+      "offset": [24,28]
+    }
+  ]
+}

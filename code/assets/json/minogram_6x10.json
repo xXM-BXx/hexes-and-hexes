@@ -1,0 +1,282 @@
+{
+  "lineHeight": 16,
+  "defaultSize": [6, 10],
+  "defaultOffset": [0, 2],
+  "defaultAdvance": 7,
+  "glyphs": {
+    "A": {
+      "atlasPos": [0, 0]
+    },
+    "B": {
+      "atlasPos": [6, 0]
+    },
+    "C": {
+      "atlasPos": [12, 0]
+    },
+    "D": {
+      "atlasPos": [18, 0]
+    },
+    "E": {
+      "atlasPos": [24, 0]
+    },
+    "F": {
+      "atlasPos": [30, 0]
+    },
+    "G": {
+      "atlasPos": [36, 0]
+    },
+    "H": {
+      "atlasPos": [42, 0]
+    },
+    "I": {
+      "atlasPos": [48, 0]
+    },
+    "J": {
+      "atlasPos": [54, 0]
+    },
+    "K": {
+      "atlasPos": [60, 0]
+    },
+    "L": {
+      "atlasPos": [66, 0]
+    },
+    "M": {
+      "atlasPos": [72, 0]
+    },
+
+    "N": {
+      "atlasPos": [0, 10]
+    },
+    "O": {
+      "atlasPos": [6, 10]
+    },
+    "P": {
+      "atlasPos": [12, 10]
+    },
+    "Q": {
+      "atlasPos": [18, 10]
+    },
+    "R": {
+      "atlasPos": [24, 10]
+    },
+    "S": {
+      "atlasPos": [30, 10]
+    },
+    "T": {
+      "atlasPos": [36, 10]
+    },
+    "U": {
+      "atlasPos": [42, 10]
+    },
+    "V": {
+      "atlasPos": [48, 10]
+    },
+    "W": {
+      "atlasPos": [54, 10]
+    },
+    "X": {
+      "atlasPos": [60, 10]
+    },
+    "Y": {
+      "atlasPos": [66, 10]
+    },
+    "Z": {
+      "atlasPos": [72, 10]
+    },
+
+    "a": {
+      "atlasPos": [0, 20]
+    },
+    "b": {
+      "atlasPos": [6, 20]
+    },
+    "c": {
+      "atlasPos": [12, 20]
+    },
+    "d": {
+      "atlasPos": [18, 20]
+    },
+    "e": {
+      "atlasPos": [24, 20]
+    },
+    "f": {
+      "atlasPos": [30, 20]
+    },
+    "g": {
+      "atlasPos": [36, 20]
+    },
+    "h": {
+      "atlasPos": [42, 20]
+    },
+    "i": {
+      "atlasPos": [48, 20]
+    },
+    "j": {
+      "atlasPos": [54, 20]
+    },
+    "k": {
+      "atlasPos": [60, 20]
+    },
+    "l": {
+      "atlasPos": [66, 20]
+    },
+    "m": {
+      "atlasPos": [72, 20]
+    },
+
+    "n": {
+      "atlasPos": [0, 30]
+    },
+    "o": {
+      "atlasPos": [6, 30]
+    },
+    "p": {
+      "atlasPos": [12, 30]
+    },
+    "q": {
+      "atlasPos": [18, 30]
+    },
+    "r": {
+      "atlasPos": [24, 30]
+    },
+    "s": {
+      "atlasPos": [30, 30]
+    },
+    "t": {
+      "atlasPos": [36, 30]
+    },
+    "u": {
+      "atlasPos": [42, 30]
+    },
+    "v": {
+      "atlasPos": [48, 30]
+    },
+    "w": {
+      "atlasPos": [54, 30]
+    },
+    "x": {
+      "atlasPos": [60, 30]
+    },
+    "y": {
+      "atlasPos": [66, 30]
+    },
+    "z": {
+      "atlasPos": [72, 30]
+    },
+
+    "0": {
+      "atlasPos": [0, 40]
+    },
+    "1": {
+      "atlasPos": [6, 40]
+    },
+    "2": {
+      "atlasPos": [12, 40]
+    },
+    "3": {
+      "atlasPos": [18, 40]
+    },
+    "4": {
+      "atlasPos": [24, 40]
+    },
+    "5": {
+      "atlasPos": [30, 40]
+    },
+    "6": {
+      "atlasPos": [36, 40]
+    },
+    "7": {
+      "atlasPos": [42, 40]
+    },
+    "8": {
+      "atlasPos": [48, 40]
+    },
+    "9": {
+      "atlasPos": [54, 40]
+    },
+    "+": {
+      "atlasPos": [60, 40]
+    },
+    "-": {
+      "atlasPos": [66, 40]
+    },
+    "=": {
+      "atlasPos": [72, 40]
+    },
+
+    "(": {
+      "atlasPos": [0, 50]
+    },
+    ")": {
+      "atlasPos": [6, 50]
+    },
+    "[": {
+      "atlasPos": [12, 50]
+    },
+    "]": {
+      "atlasPos": [18, 50]
+    },
+    "{": {
+      "atlasPos": [24, 50]
+    },
+    "}": {
+      "atlasPos": [30, 50]
+    },
+    "<": {
+      "atlasPos": [36, 50]
+    },
+    ">": {
+      "atlasPos": [42, 50]
+    },
+    "/": {
+      "atlasPos": [48, 50]
+    },
+    "*": {
+      "atlasPos": [54, 50]
+    },
+    ":": {
+      "atlasPos": [60, 50]
+    },
+    "#": {
+      "atlasPos": [66, 50]
+    },
+    "%": {
+      "atlasPos": [72, 50]
+    },
+
+    "!": {
+      "atlasPos": [0, 60]
+    },
+    "?": {
+      "atlasPos": [6, 60]
+    },
+    ".": {
+      "atlasPos": [12, 60]
+    },
+    ",": {
+      "atlasPos": [18, 60]
+    },
+    "'": {
+      "atlasPos": [24, 60]
+    },
+    "\"": {
+      "atlasPos": [30, 60]
+    },
+    "@": {
+      "atlasPos": [36, 60]
+    },
+    "&": {
+      "atlasPos": [42, 60]
+    },
+    "$": {
+      "atlasPos": [48, 60]
+    },
+    "\u0020": {
+      "atlasPos": [54, 60]
+    },
+    "\u231A": {
+      "atlasPos": [67, 60],
+      "size": [10, 10]
+    }
+  }
+}

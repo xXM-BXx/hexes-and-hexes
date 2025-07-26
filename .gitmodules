@@ -1,0 +1,9 @@
+[submodule "code/engine/extern/glfw"]
+	path = code/engine/extern/glfw
+	url = ../../glfw/glfw.git
+[submodule "code/engine/extern/glm"]
+	path = code/engine/extern/glm
+	url = ../../g-truc/glm.git
+[submodule "code/engine/extern/nlohmann_json"]
+	path = code/engine/extern/nlohmann_json
+	url = ../../nlohmann/json.git

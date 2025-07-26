@@ -1,0 +1,17 @@
+//
+// Created by mburc on 18.07.2025.
+//
+
+#pragma once
+#include "Action.h"
+
+namespace gl3::game {
+    class Tier3EnemySingle : public Action {
+    public:
+        explicit Tier3EnemySingle(Character *owner);
+        ///Mark a tile, that has line of sight to the owner.
+        std::vector<HexCoords> markTiles(HexCoords target) override;
+        ///Set the \ref Obstacle on the marked tile to explosion.
+        bool execute(HexCoords target) override;
+    };
+}

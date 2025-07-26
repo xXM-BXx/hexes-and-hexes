@@ -1,0 +1,222 @@
+[
+  {
+    "animationName": "idle",
+    "looping" : true,
+    "frames": [
+      {
+        "atlasCoordinate": [0, 0],
+        "duration": 0.15
+      },
+      {
+        "atlasCoordinate": [3, 0],
+        "duration": 0.15
+      },
+      {
+        "atlasCoordinate": [6, 0],
+        "duration": 0.15
+      },
+      {
+        "atlasCoordinate": [9, 0],
+        "duration": 0.15
+      }
+    ]
+  },
+  {
+    "animationName": "top",
+    "looping" : false,
+    "frames": [
+      {
+        "atlasCoordinate": [0, 3],
+        "duration": 0.15
+      },
+      {
+        "atlasCoordinate": [3, 3],
+        "duration": 0.15
+      },
+      {
+        "atlasCoordinate": [6, 3],
+        "duration": 0.15
+      },
+      {
+        "atlasCoordinate": [9, 3],
+        "duration": 0.15
+      }
+    ]
+  },
+  {
+    "animationName": "top_right",
+    "looping" : false,
+    "frames": [
+      {
+        "atlasCoordinate": [0, 7],
+        "duration": 0.15
+      },
+      {
+        "atlasCoordinate": [5, 7],
+        "duration": 0.15
+      },
+      {
+        "atlasCoordinate": [10, 7],
+        "duration": 0.15
+      },
+      {
+        "atlasCoordinate": [15, 7],
+        "duration": 0.15
+      }
+    ]
+  },
+  {
+    "animationName": "bottom_right",
+    "looping" : false,
+    "frames": [
+      {
+        "atlasCoordinate": [0, 11],
+        "duration": 0.15
+      },
+      {
+        "atlasCoordinate": [5, 11],
+        "duration": 0.15
+      },
+      {
+        "atlasCoordinate": [10, 11],
+        "duration": 0.15
+      },
+      {
+        "atlasCoordinate": [15, 11],
+        "duration": 0.15
+      }
+    ]
+  },
+  {
+    "animationName": "bottom",
+    "looping" : false,
+    "frames": [
+      {
+        "atlasCoordinate": [12, 3],
+        "duration": 0.15
+      },
+      {
+        "atlasCoordinate": [15, 3],
+        "duration": 0.15
+      },
+      {
+        "atlasCoordinate": [18, 3],
+        "duration": 0.15
+      },
+      {
+        "atlasCoordinate": [21, 3],
+        "duration": 0.15
+      }
+    ]
+  },
+  {
+    "animationName": "bottom_left",
+    "looping" : false,
+    "frames": [
+      {
+        "atlasCoordinate": [0, 15],
+        "duration": 0.15
+      },
+      {
+        "atlasCoordinate": [5, 15],
+        "duration": 0.15
+      },
+      {
+        "atlasCoordinate": [10, 15],
+        "duration": 0.15
+      },
+      {
+        "atlasCoordinate": [15, 15],
+        "duration": 0.15
+      }
+    ]
+  },
+  {
+    "animationName": "top_left",
+    "looping" : false,
+    "frames": [
+      {
+        "atlasCoordinate": [0, 19],
+        "duration": 0.15
+      },
+      {
+        "atlasCoordinate": [5, 19],
+        "duration": 0.15
+      },
+      {
+        "atlasCoordinate": [10, 19],
+        "duration": 0.15
+      },
+      {
+        "atlasCoordinate": [15, 19],
+        "duration": 0.15
+      }
+    ]
+  },
+  {
+    "animationName": "don_staff",
+    "looping" : false,
+    "frames": [
+      {
+        "atlasCoordinate": [0, 23],
+        "duration": 0.15
+      },
+      {
+        "atlasCoordinate": [3, 23],
+        "duration": 0.15
+      },
+      {
+        "atlasCoordinate": [6, 23],
+        "duration": 0.15
+      },
+      {
+        "atlasCoordinate": [9, 23],
+        "duration": 0.25
+      }
+    ]
+  },
+  {
+    "animationName": "cast",
+    "looping" : false,
+    "frames": [
+      {
+        "atlasCoordinate": [12, 23],
+        "duration": 0.15
+      },
+      {
+        "atlasCoordinate": [15, 23],
+        "duration": 0.15
+      },
+      {
+        "atlasCoordinate": [18, 23],
+        "duration": 0.15
+      },
+      {
+        "atlasCoordinate": [21, 23],
+        "duration": 0.15
+      }
+    ]
+  },
+  {
+    "animationName": "doff_staff",
+    "looping" : false,
+    "frames": [
+      {
+        "atlasCoordinate": [9, 23],
+        "duration": 0.25
+      },
+      {
+        "atlasCoordinate": [6, 23],
+        "duration": 0.15
+      },
+      {
+        "atlasCoordinate": [3, 23],
+        "duration": 0.15
+      },
+      {
+        "atlasCoordinate": [0, 23],
+        "duration": 0.15
+      }
+    ]
+  }
+]
