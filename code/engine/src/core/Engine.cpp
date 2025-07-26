@@ -16,7 +16,6 @@ namespace hnh::engine {
     }
 
     Engine::Engine(){
-        audioManager.init();
         audioManager.setGlobalVolume(1.0f);
     }
 
@@ -63,10 +62,6 @@ namespace hnh::engine {
         //Inverse project to world space
         auto inverseProj = inverse(getSceneProjectionMatrix());
         auto world = inverseProj * clipSpace;
-
-        //Divide by w
-        if (world.w != 0.0f)
-            //world /= world.w;
 
 
         return glm::vec2(world);

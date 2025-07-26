@@ -82,19 +82,11 @@ namespace hnh {
         int currentTurn;
 
         std::vector<HexCoords> getWalkableHexes() const;
+
+        std::string defaultButtonClickSound = "audio/ButtonPress.wav";
     private:
         int timeSinceLastSpawn = 5;
         int spawnInterval = 5;
-
-        SoLoud::Wav crystalBreakSound;
-        SoLoud::Wav crystalGrowSound;
-        SoLoud::Wav hurtSound;
-        SoLoud::Wav castSound;
-        SoLoud::Wav stepSound;
-        SoLoud::Wav explosionSound;
-        SoLoud::Wav backgroundMusic;
-        SoLoud::Wav healSound;
-        SoLoud::Wav lifestealSound;
         const std::string persistentDataFile = "json/PersistentData.json";
         bool paused = false;
 

@@ -53,7 +53,7 @@ namespace hnh::game {
     }
 
     void ActionListItem::updateUI() {
-        button.setOnclickSound("audio/ButtonPress.wav");
+        button.setOnclickSound(Game::instance->defaultButtonClickSound);
 
         if(action->currentCooldown > 0) {
             button.setDisabled(true);

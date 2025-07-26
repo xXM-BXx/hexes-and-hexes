@@ -1,5 +1,4 @@
 #pragma once
-#include <soloud_wav.h>
 #include <engine/rendering/GameObject.h>
 
 #include <engine/rendering/AnimatedSprite.h>

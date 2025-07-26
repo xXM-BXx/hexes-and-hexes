@@ -1,5 +1,5 @@
 #include <engine/ui/UIBox.h>
-
+#define NOMINMAX
 #include <utility>
 
 #include "engine/core/Engine.h"

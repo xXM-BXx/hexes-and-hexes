@@ -1,8 +1,6 @@
 #pragma once
 #include <glad/glad.h>
 #define NOMINMAX
-#include <windows.h>
-#include <soloud.h>
 #include <string>
 #include <functional>
 #include <GLFW/glfw3.h>

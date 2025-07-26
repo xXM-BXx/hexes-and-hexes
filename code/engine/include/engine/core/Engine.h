@@ -5,6 +5,8 @@
 #include <engine/resource_loading/ResourceManager.h>
 #include <engine/core/InputHandler.h>
 #include <engine/core/ObjectManager.h>
+
+#include <engine/core/AudioManager.h>
 #include "glm/ext/matrix_float4x4.hpp"
 
 namespace hnh::engine{
@@ -67,7 +69,7 @@ namespace hnh::engine{
         glm::vec4 backgroundColor = {0.5f, 0.0f, 0.5f, 1.0f};
 
         /// The Engines audio manager.
-        SoLoud::Soloud audioManager;
+        audio::AudioManager audioManager;
         /// Set the audio managers volume.
         void setVolume(float volume);
     private:

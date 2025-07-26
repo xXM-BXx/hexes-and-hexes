@@ -1,5 +1,4 @@
 #pragma once
-#include <soloud_wav.h>
 #include <engine/ui/UIBox.h>
 
 namespace hnh::engine::ui {
@@ -23,11 +22,11 @@ namespace hnh::engine::ui {
         void setDisabled(bool disabled) override;
 
     protected:
+        std::string onClickSoundPath;
         void onEnter() override;
         void onClick() override;
         void onExit() override;
 
-        SoLoud::Wav onClickSound;
         bool hasClickSound = false;
         std::shared_ptr<UITexture> normalTexture;
         std::shared_ptr<UITexture> hoveredTexture;

@@ -27,12 +27,8 @@ namespace hnh::engine::ui {
     }
 
     void UIButton::setOnclickSound(const std::filesystem::path &audioPath) {
-        int result = onClickSound.load(resolveAssetPath(audioPath).string().c_str());
-        if (result != 0) {
-            std::cerr << "Failed to load onClick sound " << result << std::endl;
-        }else {
-            hasClickSound = true;
-        }
+        onClickSoundPath = resolveAssetPath(audioPath).string();
+        hasClickSound = true;
     }
 
     void UIButton::setDisabled(bool disabled) {
@@ -46,7 +42,7 @@ namespace hnh::engine::ui {
     }
 
     void UIButton::onClick() {
-        if(hasClickSound) Engine::get().audioManager.play(onClickSound);
+        if(hasClickSound) Engine::get().audioManager.playDirect(onClickSoundPath);
     }
 
     void UIButton::onExit() {

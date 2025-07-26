@@ -1,6 +1,6 @@
 #pragma once
 #include <engine/ui/text/UIText.h>
-
+#define NOMINMAX
 #include <engine/core/Engine.h>
 
 namespace hnh::engine::ui {

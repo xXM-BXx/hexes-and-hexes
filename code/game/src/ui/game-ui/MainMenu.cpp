@@ -47,7 +47,7 @@ namespace hnh::game {
         startButton->setOnClickCallback([]() {
             Game::instance->startGame();
         });
-        startButton->setOnclickSound("audio/ButtonPress.wav");
+        startButton->setOnclickSound(Game::instance->defaultButtonClickSound);
         addChild(std::move(startButton));
 
         //Create Tutorial Button
@@ -62,7 +62,7 @@ namespace hnh::game {
         tutorialButton->setOnClickCallback([&]() {
             toggleTutorial();
         });
-        tutorialButton->setOnclickSound("audio/ButtonPress.wav");
+        tutorialButton->setOnclickSound(Game::instance->defaultButtonClickSound);
         addChild(std::move(tutorialButton));
 
         //Create Close Game Button
@@ -77,7 +77,7 @@ namespace hnh::game {
         closeButton->setOnClickCallback([]() {
             glfwSetWindowShouldClose(engine::Engine::get().getWindow(), true);
         });
-        closeButton->setOnclickSound("audio/ButtonPress.wav");
+        closeButton->setOnclickSound(Game::instance->defaultButtonClickSound);
         addChild(std::move(closeButton));
 
         //Setup Tutorial Box

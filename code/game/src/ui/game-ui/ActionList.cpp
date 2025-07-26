@@ -22,7 +22,7 @@ namespace hnh::game {
         pageDownButton.setDisabledTexture(
             engine::Engine::get().getResourceManager()->loadResource<engine::ui::UITexture>(
                 "sprites/UIButtonDisabled.png"));
-        pageDownButton.setOnclickSound("audio/ButtonPress.wav");
+        pageDownButton.setOnclickSound(Game::instance->defaultButtonClickSound);
 
 
         pageUpButton.position = {(width / scale / 2) + 5, 0};
@@ -30,7 +30,7 @@ namespace hnh::game {
             "sprites/UIButtonHover.png"));
         pageUpButton.setDisabledTexture(engine::Engine::get().getResourceManager()->loadResource<engine::ui::UITexture>(
             "sprites/UIButtonDisabled.png"));
-        pageUpButton.setOnclickSound("audio/ButtonPress.wav");
+        pageUpButton.setOnclickSound(Game::instance->defaultButtonClickSound);
 
         auto font = engine::Engine::get().getResourceManager()->loadResource<engine::ui::BitmapFont>(
             "sprites/minogram_6x10.png", "json/minogram_6x10.json");

@@ -19,7 +19,7 @@ namespace hnh::game {
         this->position = position - glm::ivec2{6, -4};
 
         auto pauseButton = std::make_unique<engine::ui::UIButton>(Game::instance->uiBoxTexture);
-        pauseButton->setOnclickSound("audio/ButtonPress.wav");
+        pauseButton->setOnclickSound(Game::instance->defaultButtonClickSound);
         pauseButton->setHoveredTexture(Game::instance->uiButtonHoveredTexture);
         pauseButton->size = size;
         pauseButton->setOnClickCallback([]() {

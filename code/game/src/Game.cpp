@@ -73,29 +73,29 @@ namespace hnh {
     }
 
     void Game::playCrystalBreakSound() {
-        engine::Engine::get().audioManager.play(crystalBreakSound);
+        engine::Engine::get().audioManager.play("crystalBreakSound");
     }
 
     void Game::playCrystalGrowSound() {
-        engine::Engine::get().audioManager.play(crystalGrowSound);
+        engine::Engine::get().audioManager.play("crystalGrowSound");
     }
     void Game::playHurtSound() {
-        engine::Engine::get().audioManager.play(hurtSound);
+        engine::Engine::get().audioManager.play("hurtSound");
     }
     void Game::playCastSound(){
-        engine::Engine::get().audioManager.play(castSound);
+        engine::Engine::get().audioManager.play("castSound");
     }
     void Game::playStepSound() {
-        engine::Engine::get().audioManager.play(stepSound);
+        engine::Engine::get().audioManager.play("stepSound");
     }
     void Game::playExplosionSound() {
-        engine::Engine::get().audioManager.play(explosionSound);
+        engine::Engine::get().audioManager.play("explosionSound");
     }
     void Game::playLifeStealSound() {
-        engine::Engine::get().audioManager.play(lifestealSound);
+        engine::Engine::get().audioManager.play("lifestealSound");
     }
     void Game::playHealSound() {
-        engine::Engine::get().audioManager.play(healSound);
+        engine::Engine::get().audioManager.play("healSound");
     }
 
     void Game::onStart() {
@@ -106,25 +106,25 @@ namespace hnh {
         uiButtonHoveredTexture = engine->getResourceManager()->loadResource<engine::ui::UITexture>(
             "sprites/UIButtonHover.png");
 
-        crystalBreakSound.load(resolveAssetPath("audio/CrystalBreak.wav").string().c_str());
-        crystalBreakSound.setSingleInstance(true);
+        engine::Engine::get().audioManager.loadSound("crystalBreakSound", resolveAssetPath("audio/CrystalBreak.wav"));
 
-        crystalGrowSound.load(resolveAssetPath("audio/CrystalGrow.wav").string().c_str());
-        crystalGrowSound.setSingleInstance(true);
+        engine::Engine::get().audioManager.loadSound("crystalGrowSound", resolveAssetPath("audio/CrystalGrow.wav"));
 
-        hurtSound.load(resolveAssetPath("audio/Hurt.wav").string().c_str());
+        engine::Engine::get().audioManager.loadSound("hurtSound", resolveAssetPath("audio/Hurt.wav"));
 
-        castSound.load(resolveAssetPath("audio/Cast.wav").string().c_str());
+        engine::Engine::get().audioManager.loadSound("castSound", resolveAssetPath("audio/Cast.wav"));
 
-        stepSound.load(resolveAssetPath("audio/Step.wav").string().c_str());
-        explosionSound.load(resolveAssetPath("audio/Explosion.wav").string().c_str());
-        lifestealSound.load(resolveAssetPath("audio/Lifesteal.wav").string().c_str());
-        lifestealSound.setSingleInstance(true);
-        healSound.load(resolveAssetPath("audio/Heal.wav").string().c_str());
-        backgroundMusic.load(resolveAssetPath("audio/Fantasy Choir 1.wav").string().c_str());
-        backgroundMusic.setLooping(true);
+        engine::Engine::get().audioManager.loadSound("stepSound", resolveAssetPath("audio/Step.wav"));
 
-        engine::Engine::get().setVolume(1.0f);
+        engine::Engine::get().audioManager.loadSound("explosionSound", resolveAssetPath("audio/Explosion.wav"));
+
+        engine::Engine::get().audioManager.loadSound("lifestealSound", resolveAssetPath("audio/Lifesteal.wav"));
+
+        engine::Engine::get().audioManager.loadSound("healSound", resolveAssetPath("audio/Heal.wav"));
+
+        //engine::Engine::get().audioManager.loadSound("backgroundMusic", resolveAssetPath("audio/Fantasy Choir 1.wav").string(), true);
+
+        //engine::Engine::get().setVolume(1.0f);
         instance = this;
 
         engine::Engine::get().backgroundColor = glm::vec4(0.11f, 0.039f, 0.008f, 1.0f);
@@ -180,7 +180,7 @@ namespace hnh {
 
         gameUI = engine->getObjectManager()->addUIObject<game::CompleteUI>();
 
-        engine::Engine::get().audioManager.play(backgroundMusic);
+        engine::Engine::get().audioManager.play("backgroundMusic");
     }
 
     std::vector<HexCoords> Game::getWalkableHexes() const {

@@ -19,7 +19,7 @@ namespace hnh::game {
         //Create Resume Button with Text
         auto resumeButton = std::make_unique<engine::ui::UIButton>(Game::instance->uiBoxTexture);
         resumeButton->setHoveredTexture(Game::instance->uiButtonHoveredTexture);
-        resumeButton->setOnclickSound("audio/ButtonPress.wav");
+        resumeButton->setOnclickSound(Game::instance->defaultButtonClickSound);
         resumeButton->size = {420, 50};
         resumeButton->position = {10, 15};
         auto resumeText = std::make_unique<engine::ui::UIText>(Game::instance->defaultFont, U"Resume", glm::ivec2{4, 1});
@@ -32,7 +32,7 @@ namespace hnh::game {
         //Create Main Menu Button with Text
         auto returnButton = std::make_unique<engine::ui::UIButton>(Game::instance->uiBoxTexture);
         returnButton->setHoveredTexture(Game::instance->uiButtonHoveredTexture);
-        returnButton->setOnclickSound("audio/ButtonPress.wav");
+        returnButton->setOnclickSound(Game::instance->defaultButtonClickSound);
         returnButton->size = {420, 50};
         returnButton->position = {10, 35};
         auto returnText = std::make_unique<engine::ui::UIText>(Game::instance->defaultFont, U"To Main Menu", glm::ivec2{4, 1});
