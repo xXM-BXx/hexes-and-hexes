@@ -10,7 +10,7 @@ namespace hnh::engine::audio {
 
     AudioManager::~AudioManager() {
         for (auto& sound : sounds)
-            ma_sound_uninit(&sound.second);
+            ma_sound_uninit(sound.second.get());
         ma_engine_uninit(&audioEngine);
     }
 
@@ -20,23 +20,21 @@ namespace hnh::engine::audio {
             return false;
         }
 
-
-
-        ma_sound sound;
-        ma_result result = ma_sound_init_from_file(&audioEngine, filePath.string().c_str(), 0, NULL, NULL, &sound);
+        auto sound = std::make_unique<ma_sound>();
+        ma_result result = ma_sound_init_from_file(&audioEngine, filePath.string().c_str(), 0, NULL, NULL, sound.get());
         if (result != MA_SUCCESS) {
             std::cerr << "[SoundManager] Failed to load sound: " << filePath << " (Error: " << result << ")" << std::endl;
             return false;
         }
-        ma_sound_set_looping(&sound, looping);
-        sounds[name] = sound;
+        ma_sound_set_looping(sound.get(), looping);
+        sounds[name] = std::move(sound);
         return true;
     }
 
     void AudioManager::play(const std::string &name) {
         auto sound = sounds.find(name);
         if (sound != sounds.end())
-            ma_sound_start(&sound->second);
+            ma_sound_start(sound->second.get());
     }
 
     void AudioManager::playDirect(const std::string &path) {
@@ -46,7 +44,7 @@ namespace hnh::engine::audio {
     void AudioManager::stop(const std::string &name) {
         auto sound = sounds.find(name);
         if (sound != sounds.end())
-            ma_sound_stop(&sound->second);
+            ma_sound_stop(sound->second.get());
     }
 
     void AudioManager::setGlobalVolume(float volume) {
