@@ -8,9 +8,7 @@
 #include <engine/rendering/Texture.h>
 #include <map>
 #include <engine/rendering/AtlasTexture.h>
-#include "stb_image.h"
 #include <engine/ui/UITexture.h>
-
 #include <engine/ui/text/BitmapFont.h>
 
 namespace fs = std::filesystem;

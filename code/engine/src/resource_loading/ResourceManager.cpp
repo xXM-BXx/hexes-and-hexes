@@ -8,6 +8,7 @@
 #include <fstream>
 #include <sstream>
 #include <engine/Assets.h>
+#include <stb_image/stb_image.h>
 #include <engine/core/Context.h>
 
 namespace hnh::engine {
