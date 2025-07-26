@@ -16,7 +16,7 @@
 #include "glm/ext/matrix_clip_space.hpp"
 
 
-namespace gl3::engine {
+namespace hnh::engine {
     Sprite::Sprite(std::shared_ptr<AtlasTexture> atlasTexture, const glm::vec2 &position,
                    Shader shader): shader(std::move(shader)),
                                    mesh(Mesh({

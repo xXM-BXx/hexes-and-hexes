@@ -5,7 +5,7 @@
 #pragma once
 #include <vector>
 
-namespace gl3::engine {
+namespace hnh::engine {
     ///A mesh as created in the courses beginning.
     class Mesh {
     public:

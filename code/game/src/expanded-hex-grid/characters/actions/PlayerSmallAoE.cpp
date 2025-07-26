@@ -7,7 +7,7 @@
 
 #include "../../../Game.h"
 
-namespace gl3::game {
+namespace hnh::game {
     PlayerSmallAoE::PlayerSmallAoE(Character *owner)
         : Action(owner) {
         displayName = "Burst";

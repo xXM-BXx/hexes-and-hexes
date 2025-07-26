@@ -12,7 +12,7 @@
 
 #include <engine/core/Engine.h>
 
-namespace gl3::engine {
+namespace hnh::engine {
     AnimatedSprite::AnimatedSprite(std::shared_ptr<AtlasTexture> atlasTexture, const glm::vec2 &position,
                                    Shader shader) : Sprite(std::move(atlasTexture), position, std::move(shader)),
                                                     currentAnimation(std::move(Animation({

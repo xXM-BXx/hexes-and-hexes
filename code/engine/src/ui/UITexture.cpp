@@ -6,7 +6,7 @@
 
 #include <engine/resource_loading/ResourceManager.h>
 
-namespace gl3::engine::ui {
+namespace hnh::engine::ui {
     UITexture::UITexture(const char *texturePath, glm::ivec4 newBorder) :
     texture(ResourceManager::loadTexture(texturePath, true)),
     border(newBorder) {

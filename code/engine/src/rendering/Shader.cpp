@@ -9,7 +9,7 @@
 #include <engine/Assets.h>
 
 
-namespace gl3::engine {
+namespace hnh::engine {
 
     struct glStatusData {
         int success;

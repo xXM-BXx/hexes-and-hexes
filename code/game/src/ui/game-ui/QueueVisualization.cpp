@@ -10,7 +10,7 @@
 
 #include "../../Game.h"
 
-namespace gl3::game {
+namespace hnh::game {
     QueueVisualization::QueueVisualization() {
         scale = 4;
         position = {150 * scale, 4};

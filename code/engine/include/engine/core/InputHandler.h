@@ -9,7 +9,7 @@
 
 #include "glm/vec2.hpp"
 
-namespace gl3::engine {
+namespace hnh::engine {
     ///The different types of input events.
     enum class EventType {
         Key,
@@ -70,11 +70,11 @@ namespace gl3::engine {
     class InputHandler {
     public:
         /// Create an input handler.
-        /// @param newContext A reference to a \ref gl3::engine::context::Context, needed to bind some input event callbacks from GLFW.
+        /// @param newContext A reference to a \ref hnh::engine::context::Context, needed to bind some input event callbacks from GLFW.
         explicit InputHandler(context::Context* newContext);
         InputHandler() = default;
 
-        /// This event is invoked, whenever some input was not intercepted by the \ref gl3::engine::ObjectManager and its \ref gl3::engine::ui::UIObject s first.
+        /// This event is invoked, whenever some input was not intercepted by the \ref hnh::engine::ObjectManager and its \ref hnh::engine::ui::UIObject s first.
         events::Event<InputHandler, std::unique_ptr<InputEvent>> unhandledInputEvent;
 
 

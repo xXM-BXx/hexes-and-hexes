@@ -15,7 +15,7 @@
 
 namespace fs = std::filesystem;
 
-namespace gl3::engine {
+namespace hnh::engine {
     class ResourceManager {
 
 

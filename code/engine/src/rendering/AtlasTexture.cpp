@@ -8,7 +8,7 @@
 #include <nlohmann/json.hpp>
 
 
-namespace gl3::engine {
+namespace hnh::engine {
     AtlasTexture::AtlasTexture(const char *texturePath, glm::ivec2 cellSize, const char *jsonPath) :
     Texture(ResourceManager::loadTexture(texturePath, true)),
     CellSize(cellSize){

@@ -7,7 +7,7 @@
 #include <engine/core/Engine.h>
 #include <engine/core/InputHandler.h>
 
-namespace gl3::engine {
+namespace hnh::engine {
     /// A template for any actual games. Already links some \ref Event s from the \ref Engine.
     class Game {
     public:

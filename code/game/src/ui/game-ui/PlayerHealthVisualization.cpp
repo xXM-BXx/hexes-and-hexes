@@ -8,7 +8,7 @@
 #include "../../Game.h"
 #include "engine/core/Engine.h"
 
-namespace gl3::game {
+namespace hnh::game {
     PlayerHealthVisualization::PlayerHealthVisualization() : healthText(Game::instance->defaultFont, U"20"),
                                                              scoreText(Game::instance->defaultFont, U"Score:?"),
                                                              heartSprite(

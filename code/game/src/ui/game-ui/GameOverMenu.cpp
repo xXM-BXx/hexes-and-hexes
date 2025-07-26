@@ -7,7 +7,7 @@
 
 #include "../../Game.h"
 
-namespace gl3::game {
+namespace hnh::game {
     GameOverMenu::GameOverMenu()
         : gameOverText(Game::instance->defaultFont, U"Placeholder", {4, 1}) {
         scale = 4;

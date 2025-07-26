@@ -8,7 +8,7 @@
 #include "Obstacle.h"
 #include "../characters/Character.h"
 
-namespace gl3::game {
+namespace hnh::game {
     class CustomHexTile : public engine::HexTile {
     public:
         ///Create a normal tile and initialize some custom components.

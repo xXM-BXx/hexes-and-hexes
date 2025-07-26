@@ -7,7 +7,7 @@
 
 #include "../../../Game.h"
 
-namespace gl3::game {
+namespace hnh::game {
     PlayerAoE::PlayerAoE(Character *owner) : Action(owner) {
         displayName = "Explosion";
         maxCooldown = 7;

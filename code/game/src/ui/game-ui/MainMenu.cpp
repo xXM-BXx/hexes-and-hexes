@@ -9,7 +9,7 @@
 
 #include "../../Game.h"
 
-namespace gl3::game {
+namespace hnh::game {
     MainMenu::MainMenu()
         : titleCard(
               engine::Engine::get().getResourceManager()->loadResource<engine::AtlasTexture>(

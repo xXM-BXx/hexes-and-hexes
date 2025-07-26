@@ -7,7 +7,7 @@
 
 #include "../../Game.h"
 
-namespace gl3::game {
+namespace hnh::game {
     PauseMenu::PauseMenu() {
         scale = 4;
 

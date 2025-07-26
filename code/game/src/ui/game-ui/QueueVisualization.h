@@ -7,7 +7,7 @@
 
 #include "QueueVisualizationItem.h"
 
-namespace gl3::game {
+namespace hnh::game {
     ///Will create \ref QueueVisualizationItem s for each character in the queue and pass on draw and input calls to them.
     ///It manages the positions of those objects as well.
     class QueueVisualization : public engine::ui::UIObject {

@@ -12,7 +12,7 @@
 
 #include <engine/core/InputHandler.h>
 
-namespace gl3::engine::ui {
+namespace hnh::engine::ui {
     class UIObject {
     public:
         UIObject();

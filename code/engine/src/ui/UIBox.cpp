@@ -11,7 +11,7 @@
 #include "glm/ext/matrix_clip_space.hpp"
 
 
-namespace gl3::engine::ui {
+namespace hnh::engine::ui {
     UIBox::UIBox(std::shared_ptr<UITexture> uiTexture, const glm::vec2 &position, const glm::ivec2 &size, float scale,
                  Shader shader): texture(std::move(uiTexture)),
                                  shader(std::move(shader)),

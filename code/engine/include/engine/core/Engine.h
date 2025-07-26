@@ -11,7 +11,7 @@
 #include <engine/core/ObjectManager.h>
 #include "glm/ext/matrix_float4x4.hpp"
 
-namespace gl3::engine{
+namespace hnh::engine{
     class Engine{
     public:
         /// Gets or creates the Engine, if it doesn't exist yet.
@@ -19,9 +19,9 @@ namespace gl3::engine{
         static Engine& get();
 
         /// Sets up the Engine with some managers. Should only be called once after creation of the Engine, e.g. in main.cpp.
-        /// @param width The targetWidth as described in \ref gl3::engine::context::Context::Context.
-        /// @param height The targetHeight as described in \ref gl3::engine::context::Context::Context.
-        /// @param title The title as described in \ref gl3::engine::context::Context::Context.
+        /// @param width The targetWidth as described in \ref hnh::engine::context::Context::Context.
+        /// @param height The targetHeight as described in \ref hnh::engine::context::Context::Context.
+        /// @param title The title as described in \ref hnh::engine::context::Context::Context.
         void init(int width, int height, const std::string &title);
 
         /// An update event, that will be called each frame with the delta time.
@@ -33,15 +33,15 @@ namespace gl3::engine{
         Engine();
 
         /// Provides access to the Engines' objectManager.
-        /// @return A reference to a \ref gl3::engine::ObjectManager.
+        /// @return A reference to a \ref hnh::engine::ObjectManager.
         ObjectManager* getObjectManager();
         /// Provides access to the Engines' resourceManager.
-        /// @return A reference to a \ref gl3::engine::ResourceManager.
+        /// @return A reference to a \ref hnh::engine::ResourceManager.
         ResourceManager* getResourceManager();
 
         /// Provides access to the Engines' inputHandler.
         /// Needed so the Game can link be linked to the Input Events.
-        /// @return A reference to a \ref gl3::engine::InputHandler.
+        /// @return A reference to a \ref hnh::engine::InputHandler.
         InputHandler* getInputHandler();
         /// Start the Engines' update loop. Should only be called once after initializing the Engine and creating the Game, e.g. in main.cpp.
         void run();
@@ -60,10 +60,10 @@ namespace gl3::engine{
         /// @return The world position, as a \ref glm::ivec2.
         [[nodiscard]] glm::ivec2 screenToWorld(glm::vec2 mousePos) const;
 
-        /// Get a projection matrix for e.g. \ref gl3::engine::GameObject, with the size of the render resolution centered on (0,0).
+        /// Get a projection matrix for e.g. \ref hnh::engine::GameObject, with the size of the render resolution centered on (0,0).
         /// @return The projection matrix.
         [[nodiscard]] glm::mat4 getSceneProjectionMatrix() const;
-        /// Get a projection matrix for e.g. \ref gl3::engine::UIObject, with the size of the render resolution with (0,0) being the top left corner.
+        /// Get a projection matrix for e.g. \ref hnh::engine::UIObject, with the size of the render resolution with (0,0) being the top left corner.
         /// @return The projection matrix.
         [[nodiscard]] glm::mat4 getUIProjectionMatrix() const;
 

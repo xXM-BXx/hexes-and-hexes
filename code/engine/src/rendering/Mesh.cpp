@@ -9,7 +9,7 @@
 
 
 
-namespace gl3::engine {
+namespace hnh::engine {
     template<typename T>
     GLuint createBuffer(GLuint bufferType, const std::vector<T> &bufferData) {
         unsigned int buffer = 0;

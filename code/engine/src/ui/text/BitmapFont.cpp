@@ -9,7 +9,7 @@
 #include <codecvt>
 #include <nlohmann/json.hpp>
 
-namespace gl3::engine::ui {
+namespace hnh::engine::ui {
     BitmapFont::BitmapFont(const char *texturePath, const char *jsonPath): texture(
         ResourceManager::loadTexture(texturePath, true)) {
         parseJson(std::filesystem::path(jsonPath));

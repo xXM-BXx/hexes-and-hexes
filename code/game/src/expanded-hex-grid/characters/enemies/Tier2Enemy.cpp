@@ -8,7 +8,7 @@
 #include "../../../Game.h"
 #include "../actions/Tier2EnemyAttack.h"
 
-namespace gl3::game {
+namespace hnh::game {
     Tier2Enemy::Tier2Enemy() : BasicEnemy(
         engine::Engine::get().getResourceManager()->loadResource<engine::AtlasTexture>(
             "sprites/Tier2Enemy.png", glm::ivec2(16, 16), "json/atlas-textures/CharacterAtlas.json")) {

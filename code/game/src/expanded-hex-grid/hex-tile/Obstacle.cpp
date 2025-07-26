@@ -6,7 +6,7 @@
 #include "../../Game.h"
 #include "engine/Assets.h"
 
-namespace gl3::game {
+namespace hnh::game {
     Obstacle::Obstacle(HexCoords position): sprite(engine::AnimatedSprite(
                                                 engine::Engine::get().getResourceManager()->loadResource<
                                                     engine::AtlasTexture>(

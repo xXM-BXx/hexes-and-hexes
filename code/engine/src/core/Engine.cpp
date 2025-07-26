@@ -6,7 +6,7 @@
 
 #include <glm/ext/matrix_clip_space.hpp>
 
-namespace gl3::engine {
+namespace hnh::engine {
     Engine & Engine::get() {
         static Engine instance;
         return instance;

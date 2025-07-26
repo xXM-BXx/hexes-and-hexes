@@ -10,7 +10,7 @@
 #include <engine/rendering/Sprite.h>
 #include <engine/ui/UIButton.h>
 
-namespace gl3::game {
+namespace hnh::game {
 
     ///Has buttons to start and end the game, and a button to toggle the visibility of the tutorial box and text.
     class MainMenu : public engine::ui::UIObject {

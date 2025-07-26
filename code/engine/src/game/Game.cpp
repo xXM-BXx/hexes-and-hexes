@@ -4,7 +4,7 @@
 #pragma once
 #include <engine/game/Game.h>
 
-namespace gl3::engine {
+namespace hnh::engine {
     Game::Game(Engine *newEngine): engine(newEngine) {
         engine->update.addListener([&](float _deltaTime) {
             onUpdate(_deltaTime);

@@ -8,7 +8,7 @@
 #include "../Character.h"
 #include "../../../Game.h"
 
-namespace gl3::game {
+namespace hnh::game {
     SingleAttack::SingleAttack(Character *owner) : Action(owner) {
         maxCooldown = 0;
         displayName = "Attack";

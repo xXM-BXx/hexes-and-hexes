@@ -19,7 +19,7 @@
 #include "actions/WallAction.h"
 
 
-namespace gl3::game {
+namespace hnh::game {
 
     PlayerCharacter::PlayerCharacter() : Character(engine::Engine::get().getResourceManager()->loadResource<engine::AtlasTexture>(
             "sprites/PlayerCharacter.png", glm::ivec2(16, 16), "json/atlas-textures/CharacterAtlas.json")) {

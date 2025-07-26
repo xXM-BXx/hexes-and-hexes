@@ -7,7 +7,7 @@
 
 #include "../../../Game.h"
 
-namespace gl3::game {
+namespace hnh::game {
     Tier3EnemyAoE::Tier3EnemyAoE(Character *owner) : Action(owner) {
         maxCooldown = 0;
     }

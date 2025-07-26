@@ -12,7 +12,7 @@
 #include "expanded-hex-grid/hex-tile/CustomHexTile.h"
 #include "ui/game-ui/CompleteUI.h"
 
-namespace gl3 {
+namespace hnh {
     class Game : public engine::Game {
         ///Turn states for the state machine, that runs the game.
         enum class TurnState {

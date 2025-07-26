@@ -10,7 +10,7 @@
 #include <engine/tilemap/HexCoords.h>
 #include "actions/Action.h"
 
-namespace gl3::game {
+namespace hnh::game {
     ///An abstract class, which provides some shared functionality needed by all characters.
     class Character : public engine::GameObject {
     public:

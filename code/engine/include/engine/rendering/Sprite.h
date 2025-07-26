@@ -21,7 +21,7 @@
 
 namespace fs = std::filesystem;
 
-namespace gl3::engine {
+namespace hnh::engine {
 
     class Sprite : public GameObject {
 

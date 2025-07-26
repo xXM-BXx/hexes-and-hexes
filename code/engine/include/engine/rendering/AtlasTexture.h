@@ -12,7 +12,7 @@
 #include "glm/detail/type_vec1.hpp"
 #include "../utility/Utility.h"
 
-namespace gl3::engine {
+namespace hnh::engine {
     ///One item in a \ref AtlasTexture
     struct AtlasItem {
         ///The cell coordinates, at which the item starts.

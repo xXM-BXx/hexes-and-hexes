@@ -9,7 +9,7 @@
 #include <engine/tilemap/HexTile.h>
 #include <engine/tilemap/HexCoords.h>
 
-namespace gl3::engine {
+namespace hnh::engine {
     ///A collection of any child of \ref HexTile.
     template<typename HexTileType>
     class HexGrid : public GameObject {

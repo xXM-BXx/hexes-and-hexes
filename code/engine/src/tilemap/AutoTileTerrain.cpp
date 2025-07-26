@@ -7,7 +7,7 @@
 
 #include <engine/resource_loading/ResourceManager.h>
 
-namespace gl3::engine {
+namespace hnh::engine {
     AutoTileTerrain::AutoTileTerrain(int terrainId) :
         terrainId(terrainId)
     {

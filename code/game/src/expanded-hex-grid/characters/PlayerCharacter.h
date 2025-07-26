@@ -5,7 +5,7 @@
 #pragma once
 #include "Character.h"
 
-namespace gl3::game {
+namespace hnh::game {
 
 class PlayerCharacter : public Character {
 public:

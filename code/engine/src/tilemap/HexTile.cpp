@@ -4,7 +4,7 @@
 
 #include <engine/tilemap/HexTile.h>
 
-namespace gl3::engine {
+namespace hnh::engine {
     HexTile::HexTile(HexCoords hexPosition, Sprite sprite) :
         HexPosition(hexPosition),
         floorSprite(std::move(sprite))

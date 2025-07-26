@@ -6,7 +6,7 @@
 
 #include "engine/core/Engine.h"
 
-namespace gl3::engine::ui {
+namespace hnh::engine::ui {
     UIObject::UIObject() = default;
 
     void UIObject::draw(glm::mat3 &parentTransform) const {

@@ -6,7 +6,7 @@
 #include "Action.h"
 
 
-namespace gl3::game {
+namespace hnh::game {
     Action::Action(Character *owner) : owner(owner){
     }
 

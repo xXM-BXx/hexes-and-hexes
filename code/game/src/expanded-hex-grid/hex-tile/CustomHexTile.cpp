@@ -8,7 +8,7 @@
 
 #include "../../Game.h"
 
-namespace gl3::game {
+namespace hnh::game {
     CustomHexTile::CustomHexTile(HexCoords hexPosition, engine::Sprite floorSprite): HexTile(hexPosition, std::move(floorSprite)),
     mark(engine::Engine::get().getResourceManager()->loadResource<engine::AtlasTexture>("sprites/PossibleMarker.png", glm::ivec2(32, 16))),
     obstacle(Obstacle(hexPosition))

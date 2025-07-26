@@ -13,7 +13,7 @@
 
 #include "engine/core/Engine.h"
 
-namespace gl3::engine::ui {
+namespace hnh::engine::ui {
     UIButton::UIButton(const std::shared_ptr<UITexture>& uiTexture, const glm::vec2 &position, const glm::ivec2 &size,
                        float scale, Shader shader): UIBox(uiTexture, position, size, scale,
                                                           std::move(shader)),

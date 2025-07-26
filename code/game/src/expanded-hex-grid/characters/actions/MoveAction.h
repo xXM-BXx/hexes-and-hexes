@@ -7,7 +7,7 @@
 #include "../Character.h"
 
 
-namespace gl3::game {
+namespace hnh::game {
 
     class MoveAction : public Action {
     public:

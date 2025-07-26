@@ -7,7 +7,7 @@
 
 #include "../../../Game.h"
 
-namespace gl3::game {
+namespace hnh::game {
     Lifesteal::Lifesteal(Character *owner) : Action(owner) {
         displayName = "Lifesteal";
         maxCooldown = 10;

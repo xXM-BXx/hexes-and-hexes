@@ -10,7 +10,7 @@
 #include <engine/Assets.h>
 #include <engine/core/Context.h>
 
-namespace gl3::engine {
+namespace hnh::engine {
 
     std::string ResourceManager::readText(const fs::path &filePath) {
         std::ifstream sourceFile(resolveAssetPath(filePath));

@@ -5,7 +5,7 @@
 #pragma once
 #include "Action.h"
 
-namespace gl3::game {
+namespace hnh::game {
 
 class Tier2EnemyAttack : public Action {
 public:

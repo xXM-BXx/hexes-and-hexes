@@ -10,7 +10,7 @@
 #include <engine/core/Engine.h>
 
 
-namespace gl3::engine {
+namespace hnh::engine {
     /// The Data required for one frame of an \ref Animation.
     struct AnimationFrame {
         ///The Atlas Coordinate of this frame.
@@ -50,7 +50,7 @@ namespace gl3::engine {
     class AnimatedSprite : public Sprite{
     public:
         /// Create an animated sprite without any animations.
-        /// @param atlasTexture A pointer to an \ref AtlasTexture as provided by the \ref gl3::engine::ResourceManager.
+        /// @param atlasTexture A pointer to an \ref AtlasTexture as provided by the \ref hnh::engine::ResourceManager.
         /// @param position The position of the object.
         /// @param shader The shaders for the sprite.
         explicit AnimatedSprite(std::shared_ptr<AtlasTexture> atlasTexture,

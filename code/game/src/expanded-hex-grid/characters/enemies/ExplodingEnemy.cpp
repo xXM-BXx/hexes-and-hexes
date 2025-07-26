@@ -9,7 +9,7 @@
 #include "../actions/Explode.h"
 #include "../actions/MoveAction.h"
 
-namespace gl3::game {
+namespace hnh::game {
     ExplodingEnemy::ExplodingEnemy() : BasicEnemy(engine::Engine::get().getResourceManager()->loadResource<engine::AtlasTexture>(
             "sprites/ExplodingEnemy.png", glm::ivec2(16, 16), "json/atlas-textures/CharacterAtlas.json")) {
         actions["move"] = std::make_unique<MoveAction>(this, 3);

@@ -10,7 +10,7 @@
 #include "../actions/Tier3EnemyAoE.h"
 #include "../actions/Tier3EnemySingle.h"
 
-namespace gl3::game {
+namespace hnh::game {
     Tier3Enemy::Tier3Enemy() : BasicEnemy(
         engine::Engine::get().getResourceManager()->loadResource<engine::AtlasTexture>(
             "sprites/Tier3Enemy.png", glm::ivec2(16, 16), "json/atlas-textures/CharacterAtlas.json")) {

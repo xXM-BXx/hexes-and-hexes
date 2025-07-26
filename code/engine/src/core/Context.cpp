@@ -5,7 +5,7 @@
 #include <engine/core/Context.h>
 #include <engine/core/Engine.h>
 
-namespace gl3::engine::context {
+namespace hnh::engine::context {
     void framebuffer_size_callback(GLFWwindow *window, int width, int height) {
         glViewport(0, 0, width, height);
         Engine::get().getObjectManager()->updateFBOs();

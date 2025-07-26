@@ -10,7 +10,7 @@
 #include <engine/rendering/Shader.h>
 #include "glad/glad.h"
 
-namespace gl3::engine {
+namespace hnh::engine {
     class ObjectManager {
     public:
         /// Create an object manager.

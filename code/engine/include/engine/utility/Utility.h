@@ -8,7 +8,7 @@
 #include "glm/vec2.hpp"
 
 
-namespace gl3::engine {
+namespace hnh::engine {
 
     ///Needed for \ref AtlasTexture.
     struct CompareIvec2 {

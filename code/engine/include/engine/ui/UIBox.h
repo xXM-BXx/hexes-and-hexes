@@ -8,7 +8,7 @@
 #include <engine/rendering/Shader.h>
 #include <engine/ui/UITexture.h>
 
-namespace gl3::engine::ui {
+namespace hnh::engine::ui {
     class UIBox : public UIObject {
     public:
         /// Create a UIBox with a 9-Patch \ref UITexture, as provided by \ref ResourceManager.

@@ -7,7 +7,7 @@
 #include "../../../Game.h"
 
 
-namespace gl3::game {
+namespace hnh::game {
     LineAttack::LineAttack(Character *owner) : Action(owner) {
         displayName = "Line Attack";
         displayDescription =

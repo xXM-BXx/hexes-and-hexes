@@ -9,7 +9,7 @@
 #include "engine/rendering/Texture.h"
 #include "glm/vec2.hpp"
 
-namespace gl3::engine::ui {
+namespace hnh::engine::ui {
     ///A symbol in a font. Specifies data needed for text rendering.
     struct Glyph {
         glm::ivec2 atlasPos; // Top-left position in the texture (in pixels)

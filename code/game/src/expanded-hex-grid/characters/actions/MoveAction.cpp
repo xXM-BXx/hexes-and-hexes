@@ -7,7 +7,7 @@
 #include "../../../Game.h"
 
 
-namespace gl3::game {
+namespace hnh::game {
     MoveAction::MoveAction(Character *owner, int range) : Action(owner), range(range) {
         maxCooldown = 0;
         displayName = "Move";

@@ -7,7 +7,7 @@
 #include <engine/tilemap/HexCoords.h>
 #include <queue>
 
-namespace gl3 {
+namespace hnh {
     //Start at top, Clockwise
     std::array<HexCoords, 6> HexCoords::EdgeDirections = {
         HexCoords(0, -1, +1), HexCoords(+1, -1, 0), HexCoords(+1, 0, -1),

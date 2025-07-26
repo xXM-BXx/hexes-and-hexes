@@ -5,7 +5,7 @@
 #pragma once
 #include "BasicEnemy.h"
 
-namespace gl3::game {
+namespace hnh::game {
 
     ///Strongest enemy.
 class Tier3Enemy : public BasicEnemy {

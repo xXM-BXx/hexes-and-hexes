@@ -6,7 +6,7 @@
 #include <soloud_wav.h>
 #include <engine/ui/UIBox.h>
 
-namespace gl3::engine::ui {
+namespace hnh::engine::ui {
     ///A box with a few more functions.
     class UIButton : public UIBox {
     public:

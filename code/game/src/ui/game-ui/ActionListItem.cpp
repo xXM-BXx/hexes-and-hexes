@@ -9,8 +9,8 @@
 #include "../../Game.h"
 #include "engine/core/Engine.h"
 
-namespace gl3::game {
-    ActionListItem::ActionListItem(gl3::game::Action *action, const std::string &onClickName, glm::ivec2 size)
+namespace hnh::game {
+    ActionListItem::ActionListItem(hnh::game::Action *action, const std::string &onClickName, glm::ivec2 size)
         : action(action),
           button(engine::Engine::get().getResourceManager()->loadResource<engine::ui::UITexture>("sprites/UIBox.png"),
                  {0, 0}, {size.x, size.y * 3}),

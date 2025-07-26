@@ -17,7 +17,7 @@ class path;
 using json = nlohmann::json;
 namespace fs = std::filesystem;
 
-namespace gl3::engine {
+namespace hnh::engine {
     ///A terrain stores a map of neighbor relations and texture addresses .
     class AutoTileTerrain {
         public:

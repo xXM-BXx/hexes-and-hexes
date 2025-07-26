@@ -12,9 +12,8 @@
 #include "glm/vec3.hpp"
 
 
-namespace gl3 {
+namespace hnh {
     ///A cubic/axial Hex Coordinate system, based of https://www.redblobgames.com/grids/hexagons/.
-    ///Code based of work during Game Studio Winter 2024/25.
     struct HexCoords {
         enum class HexAxis { Q, R, S };
 
@@ -147,8 +146,8 @@ namespace gl3 {
 namespace std {
     ///A hash function required by some data structures.
     template<>
-    struct hash<gl3::HexCoords> {
-        std::size_t operator()(const gl3::HexCoords &hc) const noexcept {
+    struct hash<hnh::HexCoords> {
+        std::size_t operator()(const hnh::HexCoords &hc) const noexcept {
             std::size_t h1 = std::hash<int>{}(hc.Q);
             std::size_t h2 = std::hash<int>{}(hc.R);
             // Combine the hashes using a simple hash-combine

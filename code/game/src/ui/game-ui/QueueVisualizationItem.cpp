@@ -9,7 +9,7 @@
 #include "../../Game.h"
 #include "engine/ui/UIBox.h"
 
-namespace gl3::game {
+namespace hnh::game {
     QueueVisualizationItem::QueueVisualizationItem(Character *character):
     characterSprite(character->getCharacterSprite()->atlasTexture),
     characterPosition(character->getHexPosition()){

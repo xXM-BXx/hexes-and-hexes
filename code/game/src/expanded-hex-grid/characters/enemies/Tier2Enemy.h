@@ -5,7 +5,7 @@
 #pragma once
 #include "BasicEnemy.h"
 
-namespace gl3::game {
+namespace hnh::game {
 
     ///Medium strength enemy.
     class Tier2Enemy : public BasicEnemy {

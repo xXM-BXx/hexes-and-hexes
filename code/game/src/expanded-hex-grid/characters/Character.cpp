@@ -11,7 +11,7 @@
 #include "actions/Action.h"
 #include "actions/MoveAction.h"
 
-namespace gl3::game {
+namespace hnh::game {
     void Character::draw(glm::mat3 &parentTransform) const {
         auto transform = parentTransform * getTransform();
         characterSprite.draw(transform);

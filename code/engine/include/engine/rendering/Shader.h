@@ -12,7 +12,7 @@
 
 namespace fs = std::filesystem;
 
-namespace gl3::engine {
+namespace hnh::engine {
     class Shader {
     public:
         /// Create a shader from a .vert and a .frag file.

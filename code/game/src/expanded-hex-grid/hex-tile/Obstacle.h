@@ -10,7 +10,7 @@
 
 #include "engine/tilemap/HexCoords.h"
 
-namespace gl3::game {
+namespace hnh::game {
     class Obstacle : public engine::GameObject {
     public:
         ///The different types of obstacles.

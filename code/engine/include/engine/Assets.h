@@ -7,7 +7,7 @@
 
 namespace fs = std::filesystem;
 
-namespace gl3 {
+namespace hnh {
     ///Provides the root for asset loading.
     inline fs::path resolveAssetPath(const fs::path &relativeAssetPath) {
         auto mergedPath = ("./assets" / relativeAssetPath).make_preferred();

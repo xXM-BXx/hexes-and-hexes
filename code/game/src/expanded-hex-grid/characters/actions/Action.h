@@ -6,7 +6,7 @@
 #include <engine/tilemap/HexCoords.h>
 
 
-namespace gl3::game {
+namespace hnh::game {
     class Character;
     class Action {
     protected:

@@ -7,7 +7,7 @@
 #include "../../Game.h"
 
 
-namespace gl3::game {
+namespace hnh::game {
     ActionList::ActionList(): pageDownButton(
                                   engine::Engine::get().getResourceManager()->loadResource<engine::ui::UITexture>(
                                       "sprites/UIBox.png"), {0, 0}, {1, 50}),

@@ -9,7 +9,7 @@
 #include "engine/core/Engine.h"
 #include "glm/vec2.hpp"
 
-namespace gl3::engine {
+namespace hnh::engine {
 
     InputHandler::InputHandler(context::Context* newContext): context(newContext) {
         glfwSetWindowUserPointer(context->getWindow(), this);

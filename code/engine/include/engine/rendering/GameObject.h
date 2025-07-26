@@ -7,7 +7,7 @@
 #include <vector>
 #include <glm/mat3x3.hpp>
 
-namespace gl3::engine {
+namespace hnh::engine {
     ///Abstract parent class for all Game Objects.
     class GameObject {
     public:

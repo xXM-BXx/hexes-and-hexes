@@ -7,7 +7,7 @@
 #include <engine/rendering/GameObject.h>
 #include <engine/rendering/Sprite.h>
 
-namespace gl3::engine {
+namespace hnh::engine {
 
 class HexTile : public GameObject {
 

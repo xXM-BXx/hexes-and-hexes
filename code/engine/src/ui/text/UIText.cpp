@@ -7,7 +7,7 @@
 
 #include <engine/core/Engine.h>
 
-namespace gl3::engine::ui {
+namespace hnh::engine::ui {
     UIText::UIText(std::shared_ptr<BitmapFont> font, const std::u32string &text, const glm::vec2 &position, float scale,
                    Shader shader) : shader(std::move(shader)),
                                     font(std::move(font)),

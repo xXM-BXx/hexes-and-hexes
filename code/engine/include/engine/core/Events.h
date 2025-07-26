@@ -7,7 +7,7 @@
 #include <utility>
 
 
-namespace gl3::engine::events {
+namespace hnh::engine::events {
     template<typename Owner, typename ...Args>
     class Event {
         friend Owner;

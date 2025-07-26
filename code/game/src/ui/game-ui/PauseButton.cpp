@@ -9,7 +9,7 @@
 #include "engine/core/Engine.h"
 #include "engine/ui/UIButton.h"
 
-namespace gl3::game {
+namespace hnh::game {
     PauseButton::PauseButton(): pauseSymbol(
         engine::Engine::get().getResourceManager()->loadResource<engine::AtlasTexture>(
             "sprites/PauseSymbol.png", glm::ivec2{6, 10})) {

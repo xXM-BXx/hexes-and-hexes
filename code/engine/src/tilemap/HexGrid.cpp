@@ -6,6 +6,6 @@
 
 #include <ranges>
 
-namespace gl3::engine {
+namespace hnh::engine {
 
 }

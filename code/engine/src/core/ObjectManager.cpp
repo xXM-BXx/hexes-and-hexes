@@ -10,7 +10,7 @@
 #include <engine/rendering/Shader.h>
 
 
-namespace gl3::engine {
+namespace hnh::engine {
     ObjectManager::ObjectManager(): fullScreenShader(Shader("shaders/fullscreen.vert", "shaders/fullscreen.frag")) {
         float quadVertices[] = {
             // positions   // texCoords

@@ -9,7 +9,7 @@
 
 #include "engine/rendering/Sprite.h"
 
-namespace gl3::game {
+namespace hnh::game {
     ///Has a text for displaying health and score, which will be updated by the game regularly.
     class PlayerHealthVisualization : public engine::ui::UIObject {
     public:

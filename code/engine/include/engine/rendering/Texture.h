@@ -3,7 +3,7 @@
 //
 
 #pragma once
-namespace gl3::engine {
+namespace hnh::engine {
 
     // Texture is able to store and configure a texture in OpenGL.
     // It also hosts utility functions for easy management.

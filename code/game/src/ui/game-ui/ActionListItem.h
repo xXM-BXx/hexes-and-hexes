@@ -8,7 +8,7 @@
 #include "engine/ui/UIObject.h"
 #include "engine/ui/text/UIText.h"
 
-namespace gl3::game {
+namespace hnh::game {
 
 class ActionListItem : public engine::ui::UIObject {
 
@@ -16,7 +16,7 @@ public:
 
     ///Takes an action, and creates a button with text and a tooltip box with description based on it.
     ///It creates a callback to set the players action later.
-    explicit ActionListItem(gl3::game::Action* action, const std::string &onClickName, glm::ivec2 size);
+    explicit ActionListItem(hnh::game::Action* action, const std::string &onClickName, glm::ivec2 size);
 
     void addDescriptionText();
 

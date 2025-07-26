@@ -14,7 +14,7 @@
 #include "QueueVisualization.h"
 
 
-namespace gl3::game {
+namespace hnh::game {
     ///Manages the other UI components and transitions them during state changes.
     class CompleteUI : public engine::ui::UIObject {
     public:

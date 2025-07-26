@@ -7,7 +7,7 @@
 #include <glm/vec4.hpp>
 #include <glm/vec2.hpp>
 
-namespace gl3::engine::ui {
+namespace hnh::engine::ui {
     ///A 9-Patch texture.
     class UITexture {
     public:

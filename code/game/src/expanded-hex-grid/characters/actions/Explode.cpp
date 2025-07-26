@@ -8,7 +8,7 @@
 #include "../Character.h"
 #include "../../../Game.h"
 
-namespace gl3::game {
+namespace hnh::game {
     Explode::Explode(Character *owner): Action(owner) {
         currentCooldown = 1;
     }

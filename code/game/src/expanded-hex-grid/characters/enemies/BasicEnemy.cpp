@@ -10,7 +10,7 @@
 #include "../actions/MoveAction.h"
 
 
-namespace gl3::game {
+namespace hnh::game {
     BasicEnemy::BasicEnemy(std::shared_ptr<engine::AtlasTexture> atlasTexture): Character(std::move(atlasTexture)) {
     }
 

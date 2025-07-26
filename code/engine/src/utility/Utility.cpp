@@ -4,5 +4,5 @@
 
 #include <engine/utility/Utility.h>
 
-namespace gl3 {
-} // gl3
+namespace hnh {
+} // hnh

@@ -20,7 +20,7 @@
 #include "expanded-hex-grid/characters/enemies/Tier3Enemy.h"
 #include "ui/game-ui/CompleteUI.h"
 
-namespace gl3 {
+namespace hnh {
     engine::HexGrid<game::CustomHexTile> *Game::getHexGrid() {
         return hexGrid;
     }

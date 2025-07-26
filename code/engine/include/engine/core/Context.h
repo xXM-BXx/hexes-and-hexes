@@ -13,7 +13,7 @@
 
 #include "glm/vec2.hpp"
 
-namespace gl3::engine::context {
+namespace hnh::engine::context {
     class Context {
     public:
         using Callback = std::function<void(Context&)>;
@@ -26,12 +26,12 @@ namespace gl3::engine::context {
         explicit Context(int targetWidth = 1280, int targetHeight = 720, const std::string &title = "Game");
         virtual ~Context();
 
-        /// Gets a pointer to the window. Useful to find e.g. the windows resolution.
+        /// Gets a pointer to the window. Useful to find e.g. the windows' resolution.
         /// @return A pointer to a GLFWwindow.
         [[nodiscard]] GLFWwindow *getWindow() const { return window; }
 
         /// Gets the windows render resolution.
-        /// @return The resolution, the game renders at. Not the actual window size.
+        /// @return The resolution the game renders at. Not the actual window size.
         [[nodiscard]] glm::ivec2 getRenderResolution() const {
             return renderResolution;
         }

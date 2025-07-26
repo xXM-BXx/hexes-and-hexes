@@ -7,7 +7,7 @@
 
 #include "ActionListItem.h"
 
-namespace gl3::game {
+namespace hnh::game {
     class Action;
 
     class ActionList : public engine::ui::UIObject {

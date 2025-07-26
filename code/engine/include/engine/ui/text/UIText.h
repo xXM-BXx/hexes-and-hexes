@@ -13,7 +13,7 @@
 
 #include <engine/rendering/Mesh.h>
 
-namespace gl3::engine::ui {
+namespace hnh::engine::ui {
     class UIText : public UIObject {
     public:
         /// Create a text.

@@ -5,7 +5,7 @@
 #pragma once
 #include "Action.h"
 
-namespace gl3::game {
+namespace hnh::game {
 
 class WallAction : public Action {
 public:
