@@ -5,7 +5,7 @@
 
 namespace hnh::engine {
     AtlasTexture::AtlasTexture(const char *texturePath, glm::ivec2 cellSize, const char *jsonPath) :
-    Texture(ResourceManager::loadTexture(texturePath, true)),
+    texture(ResourceManager::loadTexture(texturePath, true)),
     CellSize(cellSize){
         if(jsonPath) {
             loadAtlasTexture("json/atlas-textures/CharacterAtlas.json");
@@ -78,11 +78,11 @@ namespace hnh::engine {
     }
 
     glm::ivec2 AtlasTexture::GetTextureSize() const {
-        return {Texture.Width, Texture.Height};
+        return {texture.Width, texture.Height};
     }
 
 
     void AtlasTexture::bindTexture() const {
-        Texture.bind();
+        texture.bind();
     }
 }

@@ -1,4 +1,3 @@
-#pragma once
 #include "GameOverMenu.h"
 
 #include "../../Game.h"

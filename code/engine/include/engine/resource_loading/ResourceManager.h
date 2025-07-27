@@ -36,7 +36,7 @@ namespace hnh::engine {
         /// Load a texture. Used by resources like \ref AtlasTexture, \ref BitmapFont, \ref UITexture.
         /// @param file The path of the file with root /assets/. Will crash if no file is found.
         /// @param alpha If alpha should be enabled.
-        /// @return A \ref Texture.
+        /// @return A \ref texture.
         static Texture loadTexture(const char *file, bool alpha);
 
     private:
@@ -50,7 +50,7 @@ namespace hnh::engine {
     std::shared_ptr<T> ResourceManager::loadResource(const char *file, Args &&... args) {
         static_assert(
             (std::is_same_v<T, AtlasTexture> || std::is_same_v<T, ui::UITexture> || std::is_same_v<T, ui::BitmapFont>),
-            "T needs to be an AtlasTexture, UI Texture, Font"); //Add code for UI Texture etc  later
+            "T needs to be an AtlasTexture, UI texture, Font"); //Add code for UI texture etc  later
         auto path = std::filesystem::path(file);
         if constexpr (std::is_same_v<T, AtlasTexture>) {
             if (atlasTextures.contains(std::filesystem::path(file))) {

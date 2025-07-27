@@ -18,12 +18,14 @@ namespace hnh::engine::context {
         glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
         glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 
-
-
-
         GLFWmonitor* primaryMonitor = glfwGetPrimaryMonitor();
 
         const GLFWvidmode* mode = glfwGetVideoMode(primaryMonitor);
+
+        if (!mode) {
+            throw std::runtime_error("Failed to get video mode!");
+        }
+
         glfwWindowHint(GLFW_RED_BITS, mode->redBits);
         glfwWindowHint(GLFW_GREEN_BITS, mode->greenBits);
         glfwWindowHint(GLFW_BLUE_BITS, mode->blueBits);
@@ -41,9 +43,11 @@ namespace hnh::engine::context {
         // This creates a fullscreen window at the monitor's native resolution
         window = glfwCreateWindow(screenWidth, screenHeight, title.c_str(), nullptr, nullptr);
         glfwSetWindowMonitor(window, nullptr, 0, 0, mode->width, mode->height, mode->refreshRate);
+
         if(window == nullptr) {
             throw std::runtime_error("Failed to create window");
         }
+
         glfwSetInputMode(window, GLFW_STICKY_KEYS, GLFW_FALSE);
         glfwMakeContextCurrent(window);
         glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
@@ -52,6 +56,7 @@ namespace hnh::engine::context {
         if(glGetError() != GL_NO_ERROR) {
             throw std::runtime_error("gl error");
         }
+
     }
 
     Context::~Context() {

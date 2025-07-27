@@ -1,4 +1,3 @@
-#pragma once
 #include "ActionList.h"
 #include "../../Game.h"
 

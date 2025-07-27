@@ -34,8 +34,10 @@
 #Build
 **/cmake-build-debug/**
 **/cmake-build-release/**
+**/cmake-build-releaselinux/**
 **/cmake-build-release/
 **/cmake-build-debug/
+**/cmake-build-releaselinux/
 
 #Docs
 **/docs/out

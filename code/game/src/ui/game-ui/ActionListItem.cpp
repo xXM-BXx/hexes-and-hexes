@@ -1,5 +1,3 @@
-#pragma once
-
 #include "ActionListItem.h"
 
 #include "../../Game.h"

@@ -1,4 +1,3 @@
-#pragma once
 #include "PauseButton.h"
 
 #include "../../Game.h"

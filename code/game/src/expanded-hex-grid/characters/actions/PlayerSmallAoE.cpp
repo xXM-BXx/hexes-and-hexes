@@ -1,4 +1,3 @@
-#pragma once
 #include "PlayerSmallAoE.h"
 
 #include "../../../Game.h"

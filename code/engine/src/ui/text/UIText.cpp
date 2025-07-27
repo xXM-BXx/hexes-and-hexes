@@ -1,4 +1,3 @@
-#pragma once
 #include <engine/ui/text/UIText.h>
 #define NOMINMAX
 #include <engine/core/Engine.h>
@@ -140,7 +139,7 @@ namespace hnh::engine::ui {
         shader.setVector("uColor", color);
 
 
-        //Bind Texture
+        //Bind texture
         glActiveTexture(GL_TEXTURE0);
         shader.setInteger("uTexture", 0);
         font->bindTexture();

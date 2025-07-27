@@ -1,4 +1,3 @@
-#pragma once
 #include <engine/rendering/AnimatedSprite.h>
 
 #include <utility>

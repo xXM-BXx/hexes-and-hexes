@@ -172,7 +172,7 @@ namespace hnh::engine {
                 bitmask = bitmask | (1 << i);
             }
         }
-        //Find Texture by bitmask
+        //Find texture by bitmask
         return terrains.at(terrainID)->NeighborRelations[bitmask];
     }
 

@@ -1,4 +1,3 @@
-#pragma once
 #include "Tier3EnemySingle.h"
 
 #include "../../../Game.h"

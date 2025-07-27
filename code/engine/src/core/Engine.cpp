@@ -1,4 +1,3 @@
-#pragma once
 #include <engine/core/Engine.h>
 
 #include <glm/ext/matrix_clip_space.hpp>
@@ -35,16 +34,15 @@ namespace hnh::engine {
         unsigned int VAO;
         glGenVertexArrays(1, &VAO);
         glBindVertexArray(VAO);
-        //glDisable(GL_DEPTH_TEST);
 
         glfwSetTime(1.0 / 60);
 
-        start.invoke();
+        //start.invoke();
         while (!glfwWindowShouldClose(getWindow())) {
-            update.invoke(deltaTime);
-            draw();
-            updateDeltaTime();
-            glfwPollEvents();
+            //update.invoke(deltaTime);
+            //draw();
+            //updateDeltaTime();
+            //glfwPollEvents();
         }
         glDeleteVertexArrays(1, &VAO);
     }
