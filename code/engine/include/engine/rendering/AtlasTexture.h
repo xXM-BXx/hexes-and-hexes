@@ -29,13 +29,13 @@ namespace hnh::engine {
     class AtlasTexture {
         ///A map of \ref AtlasItem, with their \ref AtlasItem::AtlasCoords as the key.
         std::map<glm::ivec2, AtlasItem, CompareIvec2> AtlasItems;
-        ///The \ref texture, that the AtlasTexture uses.
-        Texture texture;
+        ///The \ref Texture, that the AtlasTexture uses.
+        Texture Texture;
         ///The size of the cells in pixels.
         glm::ivec2 CellSize = glm::ivec2(1, 1);
 
     public:
-        /// Create an Atlas texture based on a path to a png. Should only be used by the \ref ResourceManager
+        /// Create an Atlas Texture based on a path to a png. Should only be used by the \ref ResourceManager
         /// @param texturePath A path to a .png with /assets/ as its root. Will crash, if the file doesn't exist.
         /// @param cellSize Optionally set the cell size in pixels.
         /// @param jsonPath A path to a .json with /assets/ as its root. Will crash, if the .json is formated incorrectly.

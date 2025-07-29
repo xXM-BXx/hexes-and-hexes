@@ -1,7 +1,7 @@
 #pragma once
 namespace hnh::engine {
 
-    // texture is able to store and configure a texture in OpenGL.
+    // Texture is able to store and configure a texture in OpenGL.
     // It also hosts utility functions for easy management.
     class Texture {
         public:

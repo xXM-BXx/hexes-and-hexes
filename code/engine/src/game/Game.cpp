@@ -1,3 +1,4 @@
+#pragma once
 #include <engine/game/Game.h>
 
 namespace hnh::engine {

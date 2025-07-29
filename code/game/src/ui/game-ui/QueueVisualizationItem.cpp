@@ -1,3 +1,5 @@
+#pragma once
+
 #include "QueueVisualizationItem.h"
 
 #include "../../Game.h"

@@ -15,13 +15,12 @@ namespace hnh::game {
 
     std::vector<HexCoords> MoveAction::markTiles(HexCoords target) {
         auto neighborFunc = [&](const HexCoords &start) -> std::vector<HexCoords> {
-            std::vector<HexCoords> eligibleNeighbors;
-            for (auto neighbor: start.neighborCoords()) {
-                if(auto tile = Game::instance->getHexGrid()->getTileOrNull(neighbor))
-                    if(tile->isWalkable())
-                        eligibleNeighbors.push_back(neighbor);
-            }
-            return eligibleNeighbors;
+            auto neighborsView = start.neighborCoords() | std::views::filter([&](const HexCoords &h) {
+                auto tile = Game::instance->getHexGrid()->getTileOrNull(h);
+                return tile && tile->isWalkable();
+            });
+            // Materialize the view into a vector
+            return {neighborsView.begin(), neighborsView.end()};
         };
         auto tiles = HexCoords::floodFill(owner->getHexPosition(), range, neighborFunc);
         tiles.erase(tiles.begin());

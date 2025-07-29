@@ -1,3 +1,4 @@
+#pragma once
 #include "PauseMenu.h"
 
 #include "../../Game.h"

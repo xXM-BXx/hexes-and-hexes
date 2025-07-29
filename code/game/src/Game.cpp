@@ -1,3 +1,4 @@
+#pragma once
 #include "Game.h"
 
 #include <iostream>
@@ -122,7 +123,7 @@ namespace hnh {
         engine::Engine::get().audioManager.loadSound("healSound", resolveAssetPath("audio/Heal.wav"));
 
         engine::Engine::get().audioManager.loadSound("backgroundMusic", resolveAssetPath("audio/Fantasy Choir 1.wav").string(), true);
-        engine::Engine::get().setVolume(0.3f);
+        engine::Engine::get().setVolume(0.5f);
 
         instance = this;
 

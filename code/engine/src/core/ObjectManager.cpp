@@ -1,3 +1,4 @@
+#pragma once
 #include <algorithm>
 #include <iostream>
 #include <engine/core/ObjectManager.h>
@@ -34,7 +35,6 @@ namespace hnh::engine {
     }
 
     void ObjectManager::draw() {
-        /*
         // Render into FBO 1
         glBindFramebuffer(GL_FRAMEBUFFER, fbo1);
         auto backgroundColor = Engine::get().backgroundColor;
@@ -87,7 +87,6 @@ namespace hnh::engine {
 
         glBindVertexArray(fullscreenQuadVAO);
         glDrawArrays(GL_TRIANGLES, 0, 6);
-        */
     }
 
     void ObjectManager::sortObjects() {

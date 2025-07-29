@@ -52,7 +52,7 @@ namespace hnh::engine::ui {
         shader.setVector2("uTextureSize", texture->getTexSize());
         shader.setVector("uBorder", texture->getBorder());
 
-        //Bind texture
+        //Bind Texture
         glActiveTexture(GL_TEXTURE0);
         shader.setInteger("uTexture", 0);
         texture->bindTexture();

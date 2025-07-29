@@ -1,3 +1,4 @@
+#pragma once
 #include "PlayerHealthVisualization.h"
 
 #include "../../Game.h"
